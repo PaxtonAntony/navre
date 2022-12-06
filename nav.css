@@ -1,0 +1,57 @@
+.navbar a:hover{
+    color: purple;
+    text-decoration: underline ;
+}
+.nav-link{
+    color: black;
+}
+.d{
+    margin-left: 150px;
+}
+.d2{
+    height: 300px;
+}
+h1{
+    padding-left: 138px;
+}
+p{
+    padding-left: 138px;
+    bottom: 108px;
+    text-align: start;
+    font-size: 16px;
+    position: absolute;
+    
+}
+button{
+    border-radius: 150px;
+    background-color: rgb(94, 6, 138);
+    border: none;
+    padding: 23px 35px;
+    text-align: center;
+    color: white;
+    width: 200px;
+   
+}
+input{
+    outline: none;
+    border-color: white;
+    border: 0;
+    
+}
+select{
+   border-bottom: 2px black solid;
+   border-color: transparent;
+   color: gray;
+}
+textarea{
+    outline: none;
+    border: 0px;
+    resize: none;
+    color: gray;
+}
+
+
+
+
+
+    

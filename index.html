@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./nav.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/lum.jpg" alt="" height="70px" class="d"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-5" aria-current="page" href="#"
+              style="font-weight: 700; text-decoration: underline; color: purple;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 " style="font-weight: 500;" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 " style="font-weight: 500;" href="#">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 " style="font-weight: 500;" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 " style="font-weight: 500;" href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/1.jpg" class="d-block w-100" alt="..." style="height: 500px; opacity:1.0;">
+        <div class="carousel-caption d-none d-md-block ">
+          <h1 style="font-size: 60px; padding-bottom: 173px; text-align: start; font-weight: 700;">Kerala's No.1 IT
+            Finishing School <br>
+            100% Placement Assistance
+          </h1>
+          <p style="bottom:162px ;" >We at LUMINAR TECHNOLAB offers best
+            software training and placement <br>
+            in emerging technologies like BIG DATA,
+            Data Science, Machine Learning,PYTHON, <br> Software Testing.</p>
+          <div class="d-grip gap-2 col-5 me-auto">
+            <button style="margin-bottom: 10px;">View courses</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/2.jpg" class="d-block w-100" alt="..." style="height: 500px; opacity: 1.0;">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h1 style="font-size: 60px; padding-bottom: 173px; text-align: start; font-weight: 700; margin-bottom: -26px;" > Data Science,ML & AL <br> Big Data-Hadoop & Spark Python Data Science<br>
+          </h1>
+          <p >We at LUMINAR TECHNOLAB offers best software training and placement in <br> emerging technologies like BIG DATA,
+            Data Science, Machine <br> Learning,PYTHON, Software Testing.</p>
+            <div class="d-grip gap-2 col-5 me-auto">
+              <button>View courses</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-left: 300px;">
+  Sign Up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" >
+      
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="margin-left: 475px;"></button>
+      <div class="modal-body">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel" >Get Training Quote for free</h1>
+        <input type="text" name="" id="" placeholder="Name"><hr> <br><br>
+        <input type="mail" placeholder="Email"> <hr><br><br>
+        <input type="text" placeholder="Phone Number"> <hr><br><br>
+        <select name="fdfd" id="">
+        <option value="">Select Course Instrested in</option>
+        <option>Data Science - ML - AI - Big Data with Cloud </option>
+        <option>Python Django - Angular- Full Stack Web Development Expert</option>
+        <option>Software Testing Specialist</option>
+        </select><hr> <br><br>
+        <input type="text" placeholder="City"><hr><br><br>
+        <textarea name="" id="" cols="50" rows="5">Comments</textarea><hr>
+      </div>
+      <div class="container-fluid">
+        <button type="button" style="border-radius: 0px; height: 60px; width: 150px; margin-bottom: 20px;" >submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+
+</html>
