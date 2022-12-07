@@ -14,7 +14,7 @@
 h1{
     padding-left: 138px;
 }
-p{
+.c3{
     padding-left: 138px;
     bottom: 108px;
     text-align: start;
@@ -49,7 +49,6 @@ textarea{
     resize: none;
     color: gray;
 }
-
 
 
 
